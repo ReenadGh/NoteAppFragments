@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -20,7 +21,7 @@ class ListFragment : Fragment() {
     private lateinit var rvNotes: RecyclerView
     private lateinit var rvAdapter: NoteAdapter
     private lateinit var editText: EditText
-    private lateinit var submitBtn: Button
+    private lateinit var submitBtn: ImageView
 
     lateinit var listViewModel: ListViewModel
     private lateinit var notes: List<Note>
